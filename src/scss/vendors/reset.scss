@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, acronym, address, big, cite, code, em, img, strong, var, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, thead, tr, article, aside, canvas, details,  figure, figcaption, footer, header, hgroup,  menu, nav, section, summary, time, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+  font: 16px sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
