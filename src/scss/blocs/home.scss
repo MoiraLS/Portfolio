@@ -1,12 +1,40 @@
-h1 {
+body {
+  background-color: black;
+}
+
+.home__title {
+  @include gradient;
   font-family: 'Srisakdi', cursive;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
-  background: -webkit-linear-gradient(#6d0043, #f41162);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   text-align: center;
   margin-top: 50vh;
   transform: translateY(-50%);
+}
+
+.menu {
+  color: antiquewhite;
+  font-family: 'Thasadith';
+
+  .items--home {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .items--about {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) rotate(-90deg);
+  }
+
+  .items--projects {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) rotate(90deg);
+  }
 }
