@@ -2,41 +2,56 @@ body {
   background-color: black;
 }
 
-.home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+.deco {
+  height: 35%;
+  width: 35%;
+  background-color: $first-color;
 }
 
-.title {
-  @include gradient;
-  font-family: 'Srisakdi', cursive;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 60px;
-  text-align: center;
+.deco--top {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.menu__items {
-  color: antiquewhite;
+.deco--bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+// .title {
+//   @include gradient;
+//   font-family: 'Srisakdi', cursive;
+//   font-style: normal;
+//   font-weight: bold;
+//   font-size: 60px;
+//   text-align: center;
+//   margin: auto;
+// }
+
+.items {
   font-family: 'Thasadith', sans-serif;
 
-  .items--home {
+  a {
+    color: antiquewhite;
+  }
+
+  .items__home {
     position: absolute;
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
   }
 
-  .items--about {
+  .items__about {
     position: absolute;
     top: 50%;
     left: 0;
     transform: translateY(-50%) rotate(-90deg);
   }
 
-  .items--projects {
+  .items__projects {
     position: absolute;
     top: 50%;
     right: 0;
