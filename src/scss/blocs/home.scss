@@ -2,15 +2,20 @@ body {
   background-color: black;
 }
 
-.home__title {
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
   @include gradient;
   font-family: 'Srisakdi', cursive;
   font-style: normal;
   font-weight: bold;
   font-size: 60px;
   text-align: center;
-  margin-top: 50vh;
-  transform: translateY(-50%);
 }
 
 .menu__items {
