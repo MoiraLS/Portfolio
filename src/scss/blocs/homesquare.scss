@@ -1,0 +1,29 @@
+.deco {
+  height: 35%;
+  width: 35%;
+  background-color: $first-color;
+}
+
+.deco--top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.deco--bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.square {
+  background: $square-color;
+}
+
+.square--one {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  height: 100px;
+  width: 100px;
+}
