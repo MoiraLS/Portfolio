@@ -23,7 +23,26 @@
 .square--one {
   position: absolute;
   top: 30%;
-  left: 20%;
+  left: 15%;
   height: 100px;
   width: 100px;
+  transform: rotate(25deg);
+}
+
+.square--two {
+  position: absolute;
+  top: 15%;
+  left: 75%;
+  height: 70px;
+  width: 70px;
+  transform: rotate(45deg);
+}
+
+.square--three {
+  position: absolute;
+  top: 75%;
+  left: 80%;
+  height: 85px;
+  width: 85px;
+  transform: rotate(-15deg);
 }

@@ -22,7 +22,7 @@
   .items__projects {
     position: absolute;
     top: 50%;
-    right: 0;
+    right: 10px;
     transform: translateY(-50%) rotate(90deg);
   }
 }
@@ -34,5 +34,15 @@
   transform: translateX(-50%);
   height: 50px;
   width: 30px;
-  background: $square-color;
+  background: $bookmark-color;
+}
+
+.bookmark--about {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 30px;
+  width: 50px;
+  background: $bookmark-color;
 }
