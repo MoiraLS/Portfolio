@@ -1,0 +1,25 @@
+.button__border {
+  position: absolute;
+  bottom: 3.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  background: none;
+  border: 0.0625em solid white;
+  width: 9.125em;
+  height: 3em;
+}
+
+.button__content {
+  position: absolute;
+  bottom: 3em;
+  left: 50%;
+  transform: translateX(-45%);
+  background: none;
+  border: 0.0625em solid white;
+  width: 9.125em;
+  height: 3em;
+  color: white;
+  text-align: center;
+  font-family: "Thasadith", sans-serif;
+  padding-top: 0.5em;
+}

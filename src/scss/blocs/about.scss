@@ -28,9 +28,8 @@
 
 .about__square {
   position: absolute;
-  top: 50vh;
+  top: 20vh;
   right: 8vw;
-  transform: translateY(-50%);
   background: $square-picture;
   width: 25em;
   height: 25em;
@@ -38,8 +37,9 @@
 
 .about__picture {
   position: absolute;
-  top: 30vh;
+  top: 50vh;
   right: 12vw;
+  transform: translateY(-50%);
   width: 25em;
   height: 25em;
 }
