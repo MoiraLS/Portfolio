@@ -7,7 +7,7 @@
 
   .items__home {
     position: absolute;
-    top: 10px;
+    top: 0.625em;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -22,7 +22,7 @@
   .items__projects {
     position: absolute;
     top: 50%;
-    right: 10px;
+    right: 0.625em;
     transform: translateY(-50%) rotate(90deg);
   }
 }
@@ -32,8 +32,8 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  height: 50px;
-  width: 30px;
+  height: 3.125em;
+  width: 1.875em;
   background: $bookmark-color;
 }
 
@@ -42,7 +42,7 @@
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  height: 30px;
-  width: 50px;
+  height: 1.875em;
+  width: 3.125em;
   background: $bookmark-color;
 }
