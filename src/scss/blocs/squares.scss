@@ -22,11 +22,11 @@
 
 .square--one {
   position: absolute;
-  top: 30%;
-  left: 15%;
   height: 6.25em;
   width: 6.25em;
   transform: rotate(25deg);
+  animation: rotate 4s linear infinite, moveone 10s linear infinite alternate;
+  animation-timing-function: linear;
 }
 
 .square--two {
@@ -36,6 +36,7 @@
   height: 4.375em;
   width: 4.375em;
   transform: rotate(45deg);
+  animation: rotate 9s linear infinite, movetwo 10s linear infinite alternate;
 }
 
 .square--three {
@@ -45,4 +46,5 @@
   height: 5.3125em;
   width: 5.3125em;
   transform: rotate(-15deg);
+  animation: rotate 6s linear infinite, movethree 8s linear infinite alternate;
 }
