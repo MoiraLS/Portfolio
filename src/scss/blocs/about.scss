@@ -1,10 +1,26 @@
-// .about {
-//   width: 300px;
-//   position: absolute;
-//   top: 30vh;
-//   left: 15vw;
 
-//   .about__text {
-//     color: antiquewhite;
-//   }
-// }
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 50vh;
+  left: 10vw;
+  transform: translateY(-50%);
+
+  .about__text {
+    color: antiquewhite;
+    text-align: center;
+  }
+
+  .about__text--one {
+    margin-bottom: 0.5em;
+  }
+
+  .about__text--two {
+    margin-bottom: 0.5em;
+  }
+}
