@@ -2,12 +2,12 @@
   font-family: 'Thasadith', sans-serif;
 
   a {
-    color: antiquewhite;
+    color: hsl(0, 0%, 100%);
   }
 
   .items__home {
     position: absolute;
-    top: 0.625em;
+    top: 0.75em;
     left: 50%;
     transform: translateX(-50%);
   }
