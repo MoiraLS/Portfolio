@@ -1,0 +1,47 @@
+.popup,
+.logo__gmail,
+.logo__github,
+.logo__linkedin {
+  display: none;
+}
+
+.popup--visible {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  width: 40%;
+  height: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border: 0.0625em solid $square-picture;
+
+  .popup__title {
+    @include gradient;
+    margin-bottom: 2em; 
+  }
+
+  .popup__gmail,
+  .popup__github,
+  .popup__linkedin {
+    display: block;
+    color: white;
+    margin-bottom: 1em;
+    font-family: "Thasadith", sans-serif;
+    font-size: 1.1em;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .logo__gmail,
+  .logo__github,
+  .logo__linkedin {
+    width: 5%;
+    height: 5%;
+  }
+}
