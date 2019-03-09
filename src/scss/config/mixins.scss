@@ -4,8 +4,14 @@
   -webkit-text-fill-color: transparent;
 }
 
+@mixin text {
+  font-size: 1.1em;
+  font-family: "Thasadith", sans-serif;
+  line-height: 1.3em;
+}
+
 @mixin project-title {
-  font-family: 'Srisakdi', cursive;
+  font-family: 'Rye', sans-serif;
   @include gradient;
 }
 
