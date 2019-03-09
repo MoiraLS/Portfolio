@@ -1,27 +1,35 @@
-.deco__project {
+.project__deco {
+  display: flex;
+  align-items: center;
   width: 40%;
   height: 40%;
   background: $first-color;
+
+  .project__number {
+    font-size: 15em;
+  }
 }
 
-.project--one {
+.project__deco--one {
+  justify-content: flex-end;
   position: absolute;
   top: 10%;
   right: 10%;
+
+  .project__number {
+    margin-right: 10%;
+  }
 }
 
-.project--two {
+.project__deco--two {
+  justify-content: flex-start;
   position: absolute;
   bottom: 10%;
   left: 10%;
-}
 
-.project__one {
-  @include flex-project;
-  position: absolute;
-  top: 10%;
-  right: 15%;
-  justify-content: flex-end;
+  .project__number {
+    margin-left: 10%;
+  }
 }
 
 .project__name,
@@ -33,23 +41,13 @@
   font-size: 5.5em;
 }
 
-.name {
-  margin-right: 1em;
+.project__name--one {
+  @include project-position;
+  top: 30%;
 }
 
-.project__number {
-  font-size: 11em;
-}
-
-.project__two {
-  @include flex-project;
-  position: absolute;
-  bottom: 10%;
-  left: 15%;
+.project__name--two {
+ @include project-position;
+  top: 70%;
   text-align: center;
-  justify-content: flex-start;
-}
-
-.number {
-  margin-right: 0.5em;
 }
