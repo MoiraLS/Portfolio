@@ -3,3 +3,15 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@mixin project-title {
+  font-family: 'Srisakdi', cursive;
+  @include gradient;
+}
+
+@mixin flex-project {
+  display: flex;
+  align-items: center;
+  height: 40vh;
+  width: 60vw;
+}

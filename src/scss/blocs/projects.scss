@@ -1,4 +1,4 @@
-.project {
+.deco__project {
   width: 40%;
   height: 40%;
   background: $first-color;
@@ -14,4 +14,42 @@
   position: absolute;
   bottom: 10%;
   left: 10%;
+}
+
+.project__one {
+  @include flex-project;
+  position: absolute;
+  top: 10%;
+  right: 15%;
+  justify-content: flex-end;
+}
+
+.project__name,
+.project__number {
+  @include project-title;
+}
+
+.project__name {
+  font-size: 5.5em;
+}
+
+.name {
+  margin-right: 1em;
+}
+
+.project__number {
+  font-size: 11em;
+}
+
+.project__two {
+  @include flex-project;
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.number {
+  margin-right: 0.5em;
 }
