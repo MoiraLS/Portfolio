@@ -1,6 +1,6 @@
 .title {
   @include gradient;
-  font-family: 'Rye', cursive;
+  font-family: $title-family;
 }
 
 .title--home {
@@ -14,4 +14,14 @@
 .about__title {
   font-size: 3em;
   margin-bottom: 1em;
+}
+
+.firstProject__title {
+  position: absolute;
+  top: 17%;
+  left: 15%;
+  @include gradient;
+  font-family: $title-family;
+  font-size: 3em;
+  letter-spacing: $title-space;
 }

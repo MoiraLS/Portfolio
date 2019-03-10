@@ -1,0 +1,17 @@
+.firstProject__preview {
+  width: 40%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.firstProject__deco {
+  width: 40%;
+  height: 45%;
+  position: absolute;
+  top: 34%;
+  left: 52%;
+  transform: translateX(-50%);
+  background: $square-picture;
+}

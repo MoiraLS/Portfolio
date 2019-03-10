@@ -51,7 +51,7 @@
 
 .project__shadow {
   @include project-title;
-  @include second-gradient;
+  @include shadow-gradient;
   opacity: 0.7;
 }
 
