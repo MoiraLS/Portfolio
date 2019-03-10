@@ -1,7 +1,4 @@
-.popup,
-.logo__gmail,
-.logo__github,
-.logo__linkedin {
+.popup {
   display: none;
 }
 
@@ -36,12 +33,5 @@
     &:hover {
       cursor: pointer;
     }
-  }
-
-  .logo__gmail,
-  .logo__github,
-  .logo__linkedin {
-    width: 5%;
-    height: 5%;
   }
 }

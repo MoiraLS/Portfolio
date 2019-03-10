@@ -38,11 +38,6 @@
   @include project-title;
 }
 
-.project__name {
-  @include gradient;
-  @include project-title;
-}
-
 .project__name--one {
   @include project-position;
   top: 30%;
