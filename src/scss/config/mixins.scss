@@ -4,6 +4,12 @@
   -webkit-text-fill-color: transparent;
 }
 
+@mixin second-gradient {
+  background: -webkit-radial-gradient(#30000e, #110000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @mixin text {
   font-size: 1.1em;
   font-family: "Thasadith", sans-serif;
@@ -12,7 +18,8 @@
 
 @mixin project-title {
   font-family: 'Rye', sans-serif;
-  @include gradient;
+  font-size: 3.5em;
+  letter-spacing: 0.125em;
 }
 
 @mixin project-position {

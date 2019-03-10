@@ -34,11 +34,13 @@
 
 .project__name,
 .project__number {
+  @include gradient;
   @include project-title;
 }
 
 .project__name {
-  font-size: 3.5em;
+  @include gradient;
+  @include project-title;
 }
 
 .project__name--one {
@@ -49,5 +51,26 @@
 .project__name--two {
  @include project-position;
   top: 70%;
+  text-align: center;
+}
+
+.project__shadow {
+  @include project-title;
+  @include second-gradient;
+  opacity: 0.7;
+}
+
+.project__shadow--one {
+  position: absolute;
+  top: 27%;
+  left: 51%;
+  transform: translateX(-50%);
+}
+
+.project__shadow--two {
+  position: absolute;
+  top: 63%;
+  left: 51%;
+  transform: translateX(-50%);
   text-align: center;
 }

@@ -5,6 +5,8 @@
 @import "config/colors.scss";
 @import "config/animation.scss";
 
+@import "global/layout.scss";
+
 @import "blocs/title.scss";
 @import "blocs/menu.scss";
 @import "blocs/squares.scss";
@@ -12,3 +14,4 @@
 @import "blocs/button.scss";
 @import "blocs/popup.scss";
 @import "blocs/projects.scss";
+@import "blocs/first_project.scss";
