@@ -20,6 +20,10 @@
   height: 3em;
   color: white;
   text-align: center;
-  font-family: "Thasadith", sans-serif;
+  font-family: $text-family;
   padding-top: 0.5em;
+}
+
+.button__link {
+  color: white;
 }
