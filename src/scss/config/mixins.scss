@@ -12,12 +12,12 @@
 
 @mixin text {
   font-size: 1.1em;
-  font-family: "Thasadith", sans-serif;
+  font-family: $text-family;
   line-height: 1.3em;
 }
 
 @mixin project-title {
-  font-family: 'Rye', sans-serif;
+  font-family: $title-family;
   font-size: 3.5em;
   letter-spacing: $title-space;
 }
@@ -26,4 +26,12 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);  
+}
+
+@mixin more-position {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50vh;
 }

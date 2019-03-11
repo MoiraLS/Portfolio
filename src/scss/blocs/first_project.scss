@@ -1,17 +1,17 @@
 .firstProject__preview {
-  width: 40%;
+  width: 32em;
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 30vh;
+  left: 50vw;
   transform: translateX(-50%);
 }
 
 .firstProject__deco {
-  width: 40%;
-  height: 45%;
+  width: 32em;
+  height: 20.5em;
   position: absolute;
-  top: 34%;
-  left: 52%;
+  top: 33vh;
+  left: 52vw;
   transform: translateX(-50%);
   background: $square-picture;
 }

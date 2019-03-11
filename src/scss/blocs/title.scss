@@ -12,7 +12,7 @@
 }
 
 .about__title {
-  font-size: 3em;
+  font-size: $title-size;
   margin-bottom: 1em;
 }
 
@@ -22,6 +22,13 @@
   left: 15%;
   @include gradient;
   font-family: $title-family;
-  font-size: 3em;
+  font-size: $title-size;
   letter-spacing: $title-space;
+}
+
+.firstMore__title {
+  font-family: $title-family;
+  font-size: $title-size;
+  @include gradient;
+  margin-bottom: 5vh;
 }
