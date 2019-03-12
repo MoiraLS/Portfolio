@@ -1,8 +1,8 @@
-.popup {
+#popup {
   display: none;
 }
 
-.popup--visible {
+#popup.popup--visible {
   display: flex;
   flex-direction: column;
   justify-content: center;
