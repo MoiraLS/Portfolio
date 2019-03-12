@@ -1,0 +1,39 @@
+.project__preview {
+  width: 32em;
+  position: absolute;
+  top: 30vh;
+  left: 50vw;
+  transform: translateX(-50%);
+  border: $square-picture solid 2px;
+}
+
+.square__project {
+  width: 32em;
+  height: 20.5em;
+  position: absolute;
+  top: 33vh;
+  left: 52vw;
+  transform: translateX(-50%);
+  background: $square-picture;
+}
+
+.back {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  align-items: center;
+
+  .back__arrow {
+    width: 5%;
+    margin-right: 3%;
+  }
+  
+  .back__title {
+    color: $square-picture;
+  }
+
+  .back__link {
+    display: flex;
+    align-items: center;
+  }
+}

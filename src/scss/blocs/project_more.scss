@@ -1,0 +1,31 @@
+.more {
+  @include more-position;
+  left: 25vw;
+  transform: translateX(-50%) translateY(-50%);
+  width: 35vw;
+  color: white;
+  text-align: center;
+
+  p {
+    margin: 0.625em 0em;
+  }
+}
+
+.pictures {
+  @include more-position;
+  left: 75vw;
+  transform: translateX(-50%) translateY(-50%);
+
+  .game__picture {
+    width: 35vw;
+    margin: 2%;
+  }
+
+  .game__picture--border {
+    border: $square-picture solid 0.125em;
+  }
+}
+
+.game__link {
+  color: #f41162;
+}
