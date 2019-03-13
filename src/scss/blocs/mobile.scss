@@ -1,0 +1,33 @@
+.mobile {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .menu,
+  .bookmark--home,
+  .square,
+  .title {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    width: 70vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    
+    .mobile__title {
+      @include gradient;
+      font-family: $title-family;
+      font-size: 2em;
+    }
+
+    p {
+      margin: 5%;
+    }
+  }
+}
