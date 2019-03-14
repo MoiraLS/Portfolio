@@ -1,3 +1,1 @@
-Portfolio en cours
-
-Utilisation de SASS
+Utilisation de SASS, BEM et Parcel
