@@ -11,14 +11,14 @@
 }
 
 @mixin text {
-  font-size: 1.1em;
+  font-size: 18px;
   font-family: $text-family;
-  line-height: 1.3em;
+  line-height: 20px;
 }
 
 @mixin project-title {
   font-family: $title-family;
-  font-size: 3.5em;
+  font-size: 56px;
   letter-spacing: $title-space;
 }
 

@@ -14,11 +14,11 @@
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  border: 0.0625em solid $square-picture;
+  border: 1px solid $square-picture;
 
   .popup__title {
     @include gradient;
-    margin-bottom: 2em; 
+    margin-bottom: 32px; 
   }
 
   .popup__gmail,
@@ -26,9 +26,9 @@
   .popup__linkedin {
     display: block;
     color: white;
-    margin-bottom: 1em;
+    margin-bottom: 16px;
     font-family: $text-family;
-    font-size: 1.1em;
+    font-size: 17px;
 
     &:hover {
       cursor: pointer;

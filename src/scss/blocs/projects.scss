@@ -6,7 +6,7 @@
   background: $first-color;
 
   .project__number {
-    font-size: 10em;
+    font-size: 160px;
   }
 }
 
@@ -24,11 +24,22 @@
 .project__deco--two {
   justify-content: flex-start;
   position: absolute;
-  bottom: 10%;
+  top: 50%;
   left: 10%;
 
   .project__number {
     margin-left: 10%;
+  }
+}
+
+.project__deco--three {
+  justify-content: flex-end;
+  position: absolute;
+  top: 90%;
+  right: 10%;
+
+  .project__number {
+    margin-right: 10%;
   }
 }
 
@@ -44,9 +55,14 @@
 }
 
 .project__name--two {
- @include project-position;
+  @include project-position;
   top: 70%;
   text-align: center;
+}
+
+.project__name--three {
+  @include project-position;
+  top: 110%;
 }
 
 .project__shadow {
@@ -68,4 +84,31 @@
   left: 51%;
   transform: translateX(-50%);
   text-align: center;
+}
+
+.project__shadow--three {
+  position: absolute;
+  top: 107%;
+  left: 51%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.last__project {
+  margin-bottom: 10vh;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 130%;
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  color: rgb(177, 177, 177);
+  font-family: $text-family;
+  font-size: 12px;
+  letter-spacing: 0.5px;
 }

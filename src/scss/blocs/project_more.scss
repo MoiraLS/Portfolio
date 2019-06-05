@@ -7,7 +7,7 @@
   text-align: center;
 
   p {
-    margin: 0.625em 0em;
+    margin: 10px 0;
   }
 }
 
@@ -16,13 +16,13 @@
   left: 75vw;
   transform: translateX(-50%) translateY(-50%);
 
-  .game__picture {
+  .preview__picture {
     width: 35vw;
     margin: 2%;
   }
 
-  .game__picture--border {
-    border: $square-picture solid 0.125em;
+  .preview__picture--border {
+    border: $square-picture solid 2px;
   }
 }
 
